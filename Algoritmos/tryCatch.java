@@ -24,7 +24,7 @@ public class tryCatch {
         } catch (ArithmeticException e) {
             System.out.println("No se puede dividir entre 0");
         } catch (Exception e) {
-            System.out.println("Entrada inválida");
+            System.out.println("Entrada inválida"); 
         } finally {
             sc.close();
             System.out.println("Fin del programa");
