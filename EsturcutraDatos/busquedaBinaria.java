@@ -33,6 +33,6 @@ public class busquedaBinaria {
         } else {
             System.out.println("Encontrado en la posición " + posicion);
         }
-
+        sc.close();
     }
 }
