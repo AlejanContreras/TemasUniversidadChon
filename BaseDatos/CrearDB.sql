@@ -11,7 +11,8 @@ CREATE TABLE personas(
 
 /*insertar datos*/
 INSERT INTO personas(nombre, edad)
-VALUES ("Juan", 17);
+VALUES ("Juan", 17),
+("Pedro", 22);
 
 /*ver datos*/
 SELECT * FROM personas;
