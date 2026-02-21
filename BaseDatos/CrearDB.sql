@@ -1,4 +1,4 @@
-/*crear base de datas y usarla para creacion de talbas*/
+/*crear base de datas y usarla para creacion de tablas*/
 CREATE DATABASE crear_DB;
 USE crear_DB;
 
@@ -8,7 +8,6 @@ CREATE TABLE personas(
     nombre VARCHAR(50),
     edad INT
 );
-
 /*insertar datos*/
 INSERT INTO personas(nombre, edad)
 VALUES ("Juan", 17),
@@ -16,3 +15,4 @@ VALUES ("Juan", 17),
 
 /*ver datos*/
 SELECT * FROM personas;
+
