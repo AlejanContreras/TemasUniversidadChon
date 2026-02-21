@@ -15,12 +15,19 @@ VALUES ("alejan" , 18);
 ALTER TABLE personas
 -- agregar campo
 ADD apellido VARCHAR(50);
+ALTER TABLE personas
+ADD celular INT;
 --  modificar columna
 ALTER TABLE personas
 MODIFY edad INT NOT NULL;
 
 INSERT INTO personas(nombre, edad, apellido)
-VALUES ("Juan", 17, "Perez");
+VALUES ("Juan", 17, "Perez", 123456);
+
+-- eliminar columna/campo
+ALTER TABLE personas
+DROP COLUMN celular;
+
 
 -- TRUNCATE
 TRUNCATE TABLE personas;
