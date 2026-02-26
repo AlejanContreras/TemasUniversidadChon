@@ -25,7 +25,7 @@ WHERE edad >= 18;
 -- UPDATE
 UPDATE personas
 SET edad = 18
-WHERE nombre = "juan";
+WHERE id = "3";
 
 SELECT * FROM personas;
 
