@@ -55,3 +55,7 @@ SELECT * FROM prestamos;
 
 
 -- ver datos ya despues del insert con java
+SELECT * FROM usuarios;
+SELECT * FROM autores;
+SELECT * FROM libros;
+SELECT * FROM prestamos;
