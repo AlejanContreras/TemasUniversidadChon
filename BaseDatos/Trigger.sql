@@ -66,5 +66,3 @@ DELIMITER ;
 UPDATE personas SET nombre = "luis" WHERE id = 2;
 
 SELECT * FROM personas;
-
-
